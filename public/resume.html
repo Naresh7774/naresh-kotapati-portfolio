@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Naresh Kotapati</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+        header {
+            border-bottom: 2px solid #00d2ff;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            color: #050a18;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .role {
+            color: #00d2ff;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #666;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #050a18;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h2::before {
+            content: '';
+            display: block;
+            width: 4px;
+            height: 1.2em;
+            background: #00d2ff;
+        }
+        .item {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #333;
+        }
+        .item-sub {
+            font-style: italic;
+            color: #00d2ff;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin: 5px 0 0 20px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .skill-cat {
+            font-weight: bold;
+            color: #050a18;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .skill-items {
+            font-size: 0.9em;
+            color: #555;
+        }
+        @media print {
+            body { padding: 0; }
+            @page { margin: 1cm; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Naresh Kotapati</h1>
+        <div class="role">Aspiring Cloud/DevOps Engineer</div>
+        <div class="contact-info">
+            <span>Nellore, AP, India</span> | 
+            <span>+91-9849944493</span> | 
+            <span>kotapatinaresh100@gmail.com</span>
+        </div>
+        <div class="contact-info" style="margin-top: 5px;">
+            <span>linkedin.com/in/naresh-kotapati</span> | 
+            <span>github.com/Naresh7774</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>B.Tech 3rd-year student passionate about Cloud Computing, AWS, and DevOps. Hands-on experience with AWS services (EC2, S3, VPC, IAM, RDS) and DevOps tools (Linux, Git, Docker, Jenkins, Kubernetes, Terraform). Skilled in building cloud architectures and automating CI/CD pipelines.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <span class="skill-cat">Languages</span>
+                <span class="skill-items">Python, Basic Java, C, JavaScript</span>
+            </div>
+            <div>
+                <span class="skill-cat">Frameworks</span>
+                <span class="skill-items">HTML, CSS, NodeJS, AngularJS, Bootstrap</span>
+            </div>
+            <div>
+                <span class="skill-cat">Tools & Platforms</span>
+                <span class="skill-items">Linux, Ansible, Terraform, Docker, Kubernetes, Jenkins, AWS</span>
+            </div>
+            <div>
+                <span class="skill-cat">Soft Skills</span>
+                <span class="skill-items">Problem-Solving, Team Player, Adaptability</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Qi Enabler – Wireless Charging Web Application</span>
+                <span>Feb 2025</span>
+            </div>
+            <div class="item-sub">AngularJS, Bootstrap, HTML/CSS</div>
+            <ul>
+                <li>Developed a responsive Qi Enabler website, improving UI experience across devices.</li>
+                <li>Implemented a dynamic contact form module using AngularJS two-way data binding.</li>
+                <li>Built an interactive UI with features like carousel sliders and modular sections.</li>
+            </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>India Tourism Web Application</span>
+                <span>April 2024</span>
+            </div>
+            <div class="item-sub">JavaScript, HTML, CSS</div>
+            <ul>
+                <li>Developed a responsive tourism website showcasing major Indian destinations.</li>
+                <li>Implemented interactive UI components such as image galleries and navigation menus.</li>
+                <li>Optimized the website for fast loading and mobile compatibility.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Lovely Professional University</span>
+                <span>2023 - 2027</span>
+            </div>
+            <div class="item-sub">B.Tech in Computer Science and Engineering | CGPA: 6.1</div>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>Ravindra Bharathi Junior College</span>
+                <span>2021 - 2023</span>
+            </div>
+            <div class="item-sub">Intermediate | Percentage: 92.7%</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>Complete Oracle Cloud Infrastructure DevOps (Oct 2025)</li>
+            <li>Docker Foundations Professional Certificate (Nov 2025)</li>
+            <li>C Programming Certificate (May 2024)</li>
+            <li>Computer Communications Specialization (Nov 2024)</li>
+        </ul>
+    </section>
+</body>
+</html>
